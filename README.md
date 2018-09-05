@@ -53,35 +53,35 @@ Boundary tracking and quantification will run by executing 'boundarytracking' me
 Generated instance can be saved as mat file by Save Workspace (MATLAB UI).
 
 ## VS
-There are so many algorithms and papers about the quantification of cell morphology using similar method.  Especially, *Dictyostelium* cells, soil living highly motile amoeba, is extensively studied using the minimization of sum of squared distance method\[^1]\[^2]\[^3]\[^4]\[^5]\[^6].  The method is also used in the studies of keratocyte migration\[^7]\[^8]\[^9].  In one of those studies\[^9], velocity calculation by displacement vector projection to normal to cell boundary is also used.  Since cells are sometimes so deformable that the minimization of sum of squared distance method fails to grasp detail dynamics, there are some alternatives which are more sensitive to local deformation, such as QuimP method\[^10]\[^11]\[^12]\[^13]\[^14], or level set method\[^15]\[^16].  When cells are deformable but show no net displacement, R-theta plot is also effective\[^17]\[^18]\[^19].  It is important to select the appropriate method depending on what dynamics you want to focus on.  Compared to these previously described methods, the alrogirthm used in this BoundaryTrack program is a kind of simple method for the sake of ease.
+There are so many algorithms and papers about the quantification of cell morphology using similar method.  Especially, *Dictyostelium* cells, soil living highly motile amoeba, is extensively studied using the minimization of sum of squared distance method<sup>1,2,3,4,5,6</sup>.  The method is also used in the studies of keratocyte migration<sup>7,8,9</sup>.  In one of those studies<sup>9</sup>, velocity calculation by displacement vector projection to normal to cell boundary is also used.  Since cells are sometimes so deformable that the minimization of sum of squared distance method fails to grasp detail dynamics, there are some alternatives which are more sensitive to local deformation, such as QuimP method<sup>10,11,12,13,14</sup>, or level set method<sup>15,16</sup>.  When cells are deformable but show no net displacement, R-theta plot is also effective<sup>17,18,19</sup>.  It is important to select the appropriate method depending on what dynamics you want to focus on.  Compared to these previously described methods, the alrogirthm used in this BoundaryTrack program is a kind of simple method for the sake of ease.
 
 ## Author
 The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if you have any questions!
 
 ## References
-\[^1]:Driscoll MK et al., Phys. Biol., 2011.
-\[^2]:Driscoll MK et al., PLOS Comp. Biol., 2012.
-\[^3]:Driscoll MK et al., ACS Nano, 2014.
-\[^4]:Wang C et al., J. R. Soc. Interface, 2014.
-\[^5]:Nagel O et al., PLOS One, 2014.
-\[^6]:Driscoll MK et al., Cytoskeleton, 2015.
+1. Driscoll MK et al., Phys. Biol., 2011.
+2. Driscoll MK et al., PLOS Comp. Biol., 2012.
+3. Driscoll MK et al., ACS Nano, 2014.
+4. Wang C et al., J. R. Soc. Interface, 2014.
+5. Nagel O et al., PLOS One, 2014.
+6. Driscoll MK et al., Cytoskeleton, 2015.
 
-\[^7]:Pincus Z & Theriot JA, J. Microsc., 2007.
-\[^8]:Lou SS et al., J. Cell Biol., 2014.
-\[^9]:Barnhart EL et al., PLOS Biol., 2011.
+7. Pincus Z & Theriot JA, J. Microsc., 2007.
+8. Lou SS et al., J. Cell Biol., 2014.
+9. Barnhart EL et al., PLOS Biol., 2011.
 
-\[^10]:Dormann D et al., Cell Motil. Cytoskeleton, 2002.
-\[^11]:Tyson RA et al., Math. Model Nat. Phenom., 2010.
-\[^12]:Van Haastert PJM & Bosgraaf L, HFSP J., 2009.
-\[^13]:Bosgraaf L & Van Haastert PJM, PLOS One, 2009.
-\[^14]:Tyson RA et al., PNAS, 2015.
+10. Dormann D et al., Cell Motil. Cytoskeleton, 2002.
+11. Tyson RA et al., Math. Model Nat. Phenom., 2010.
+12. Van Haastert PJM & Bosgraaf L, HFSP J., 2009.
+13. Bosgraaf L & Van Haastert PJM, PLOS One, 2009.
+14. Tyson RA et al., PNAS, 2015.
 
-\[^15]:Machacek M & Danuser G, Biophys. J., 2006.
-\[^16]:Cai D et al., Cell, 2014.
+15. Machacek M & Danuser G, Biophys. J., 2006.
+16. Cai D et al., Cell, 2014.
 
-\[^17]:Maeda YT et al., PLOS One, 2008.
-\[^18]:Arai Y et al., PNAS, 2010.
-\[^19]:Welf ES et al., J. Cell Biol., 2010.
+17. Maeda YT et al., PLOS One, 2008.
+18. Arai Y et al., PNAS, 2010.
+19. Welf ES et al., J. Cell Biol., 2010.
 
 
 
