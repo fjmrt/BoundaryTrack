@@ -12,7 +12,7 @@ This program extracts boundary of an object in binarized image, segments into ar
 ![figure1_2](https://user-images.githubusercontent.com/40162543/45090629-d5f37a80-b14a-11e8-844b-717225ad444b.png)
 
 ### Quantification
-Protrusion/Retraction velocity, curvature and fluorescence intensity at each position will be calculated after tracking.  The magnitude of velocity is defined as the displacement projected normal to the cell contour per unit time and averaged over 3 neighboring positions and 3 time points (Figure 3).  The sign of velocity is negative or positive for inward or outward projections, respectively.  The curvature at point 'i' is defined as the reciprocal of the radius of a circle that crosses the cell boundary at point i − 25, i, and i + 25 (Figure 4).  The curvature is positive when the circle contacted the cell boundary from the inner side of the cell and negative otherwise.  Fluorescent intensity at cell boundaries is calculated by taking the average fluorescence intensities for each (2 x neighbor + 1) x (2 x neighbor + 1) pixels regions around rounded coordinates (Figure 5, this is the case that neighbor = 1).  Optionally, one can normalize the intensity profile by dividing it by the mean fluorescence intensities of the cytosolic region.
+Protrusion/Retraction velocity, curvature and fluorescence intensity at each position will be calculated after tracking.  The magnitude of velocity is defined as the displacement projected normal to the cell contour per unit time and averaged over 3 neighboring positions and 3 time points (Figure 3).  Note that 3 frames are cut due to the requirement of the calculation of difference and averaging.  ***If you analyze the data with N time points, the quantification results correspond to frame #2 ~ #N-2.***  Velocity at the frame #1 ~ #N-1 is output, then frame #1 and #N-1 are cut due to the absence of neighbor in averaging step.  The sign of velocity is negative or positive for inward or outward projections, respectively.  The curvature at point 'i' is defined as the reciprocal of the radius of a circle that crosses the cell boundary at point i − 25, i, and i + 25 (Figure 4).  The curvature is positive when the circle contacted the cell boundary from the inner side of the cell and negative otherwise.  Fluorescent intensity at cell boundaries is calculated by taking the average fluorescence intensities for each (2 x neighbor + 1) x (2 x neighbor + 1) pixels regions around rounded coordinates (Figure 5, this is the case that neighbor = 1).  Optionally, one can normalize the intensity profile by dividing it by the mean fluorescence intensities of the cytosolic region.  
 
 ![figure3_4_5](https://user-images.githubusercontent.com/40162543/45091527-b27dff00-b14d-11e8-8529-6e831fa2d877.png)
 
@@ -59,29 +59,29 @@ There are so many algorithms and papers about the quantification of cell morphol
 The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if you have any questions!
 
 ## References
-1. Driscoll MK et al., Phys. Biol., 2011.
-2. Driscoll MK et al., PLOS Comp. Biol., 2012.
-3. Driscoll MK et al., ACS Nano, 2014.
-4. Wang C et al., J. R. Soc. Interface, 2014.
-5. Nagel O et al., PLOS One, 2014.
-6. Driscoll MK et al., Cytoskeleton, 2015.
+1. Driscoll MK *et al.*, *Phys. Biol.*, 2011.
+2. Driscoll MK *et al.*, *PLOS Comp. Biol.*, 2012.
+3. Driscoll MK *et al.*, *ACS Nano*, 2014.
+4. Wang C *et al.*, *J. R. Soc. Interface*, 2014.
+5. Nagel O *et al.*, *PLOS One*, 2014.
+6. Driscoll MK *et al.*, *Cytoskeleton*, 2015.
 
-7. Pincus Z & Theriot JA, J. Microsc., 2007.
-8. Lou SS et al., J. Cell Biol., 2014.
-9. Barnhart EL et al., PLOS Biol., 2011.
+7. Pincus Z & Theriot JA, *J. Microsc.*, 2007.
+8. Lou SS *et al.*, *J. Cell Biol.*, 2014.
+9. Barnhart EL *et al.*, *PLOS Biol.*, 2011.
 
-10. Dormann D et al., Cell Motil. Cytoskeleton, 2002.
-11. Tyson RA et al., Math. Model Nat. Phenom., 2010.
-12. Van Haastert PJM & Bosgraaf L, HFSP J., 2009.
-13. Bosgraaf L & Van Haastert PJM, PLOS One, 2009.
-14. Tyson RA et al., PNAS, 2015.
+10. Dormann D *et al.*, *Cell Motil. Cytoskeleton*, 2002.
+11. Tyson RA *et al.*, *Math. Model Nat. Phenom.*, 2010.
+12. Van Haastert PJM & Bosgraaf L, *HFSP J.*, 2009.
+13. Bosgraaf L & Van Haastert PJM, *PLOS One*, 2009.
+14. Tyson RA *et al.*, *PNAS*, 2015.
 
-15. Machacek M & Danuser G, Biophys. J., 2006.
-16. Cai D et al., Cell, 2014.
+15. Machacek M & Danuser G, *Biophys. J.*, 2006.
+16. Cai D *et al.*, *Cell*, 2014.
 
-17. Maeda YT et al., PLOS One, 2008.
-18. Arai Y et al., PNAS, 2010.
-19. Welf ES et al., J. Cell Biol., 2010.
+17. Maeda YT *et al.*, *PLOS One*, 2008.
+18. Arai Y *et al.*, *PNAS*, 2010.
+19. Welf ES *et al.*, *J. Cell Biol.*, 2010.
 
 
 
