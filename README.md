@@ -3,7 +3,7 @@
 Boundary segmentation, tracking, calculation of protrusion/retraction velocity, local curvature, fluorescence intensity at each positions.
 
 ## DEMO
-![demo_movie](https://user-images.githubusercontent.com/40162543/45085779-7e4e1280-b13c-11e8-831c-c95857527164.gif)
+![demo_movie](https://user-images.githubusercontent.com/40162543/45279915-795adb80-b50d-11e8-8b62-4d16312e53bf.gif)
 
 ## Overview
 ### Boundary extraction, segmentation and tracking
@@ -58,6 +58,9 @@ There are so many algorithms and papers about the quantification of cell morphol
 ## Author
 The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if you have any questions!
 
+## License
+BoundaryTrack.m is released under the MIT License, see LICENSE.txt.
+
 ## References
 1. Driscoll MK *et al.*, *Phys. Biol.*, 2011.
 2. Driscoll MK *et al.*, *PLOS Comp. Biol.*, 2012.
@@ -82,8 +85,5 @@ The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if
 17. Maeda YT *et al.*, *PLOS One*, 2008.
 18. Arai Y *et al.*, *PNAS*, 2010.
 19. Welf ES *et al.*, *J. Cell Biol.*, 2010.
-
-## License
-BoundaryTrack.m is released under the MIT License, see LICENSE.txt.
 
 
