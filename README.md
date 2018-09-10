@@ -83,6 +83,7 @@ The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if
 18. Arai Y *et al.*, *PNAS*, 2010.
 19. Welf ES *et al.*, *J. Cell Biol.*, 2010.
 
-
+## License
+BoundaryTrack.m is released under the MIT License, see LICENSE.txt.
 
 
