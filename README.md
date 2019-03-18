@@ -53,7 +53,7 @@ Boundary tracking and quantification will run by executing 'boundarytracking' me
 Generated instance can be saved as mat file by Save Workspace (MATLAB UI).
 
 ## VS
-There are so many algorithms and papers about the quantification of cell morphology using similar method.  Especially, *Dictyostelium discoideum*, soil living highly motile amoeba, is extensively studied using the minimization of sum of squared distance method<sup>1,2,3,4,5,6</sup>.  The method is also used in the studies of keratocyte migration<sup>7,8,9</sup>.  In one of those studies<sup>9</sup>, velocity calculation by displacement vector projection to normal to cell boundary is also used.  Since cells are sometimes so deformable that the minimization of sum of squared distance method fails to grasp detail dynamics, there are some alternatives which are more sensitive to local deformation, such as QuimP method<sup>10,11,12,13,14</sup>, or level set method<sup>15,16</sup>.  When cells are deformable but show no net displacement, R-theta plot is also effective<sup>17,18,19</sup>.  It is important to select the appropriate method depending on what dynamics you want to focus on.  Compared to these previously described methods, the alrogirthm used in this BoundaryTrack program is a kind of simple method for the sake of fast computation.
+There are so many algorithms and papers about the quantification of cell morphology using similar method.  Especially, *Dictyostelium discoideum*, soil living highly motile amoeba, is extensively studied using the minimization of sum of squared distance method<sup>1,2,3,4,5,6</sup>.  The method is also used in the studies of keratocyte migration<sup>7,8,9</sup>.  In one of those studies<sup>9</sup>, velocity calculation by displacement vector projection to normal to cell boundary is also used.  Since cells are sometimes so deformable that the minimization of sum of squared distance method fails to grasp detail dynamics, there are some alternatives which are more sensitive to local deformation, such as QuimP method<sup>10,11,12,13,14</sup>, or level set method<sup>15,16</sup>.  When cells are deformable but show no net displacement, R-theta plot is also effective<sup>17,18,19</sup>.  It is important to select the appropriate method depending on what dynamics you want to focus on.  Compared to these previously described methods, the alrogirthm used in this BoundaryTrack program is a kind of simple method for the sake of fast computation.  This program was used in my previous works on cell migration<sup>20,21</sup>.
 
 ## Author
 The author is [Taihei Fujimori](https://github.com/fjmrt).  Please contact me if you have any questions!
@@ -86,4 +86,5 @@ BoundaryTrack.m is released under the MIT License, see LICENSE.txt.
 18. Arai Y *et al.*, *PNAS*, 2010.
 19. Welf ES *et al.*, *J. Cell Biol.*, 2010.
 
-
+20. [Nakajima A *et al.*, *Lab on a Chip*, 2016.](https://pubs.rsc.org/en/content/articlelanding/2016/lc/c6lc00898d#!divAbstract).
+21. [Fujimori T *et al.*, *PNAS*, 2019.](https://www.pnas.org/content/116/10/4291).
