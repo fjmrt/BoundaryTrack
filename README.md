@@ -86,5 +86,5 @@ BoundaryTrack.m is released under the MIT License, see LICENSE.txt.
 18. Arai Y *et al.*, *PNAS*, 2010.
 19. Welf ES *et al.*, *J. Cell Biol.*, 2010.
 
-20. [Nakajima A *et al.*, *Lab on a Chip*, 2016.](https://pubs.rsc.org/en/content/articlelanding/2016/lc/c6lc00898d#!divAbstract).
-21. [Fujimori T *et al.*, *PNAS*, 2019.](https://www.pnas.org/content/116/10/4291).
+20. [Nakajima A *et al.*, *Lab on a Chip*, 2016.](https://pubs.rsc.org/en/content/articlelanding/2016/lc/c6lc00898d#!divAbstract)
+21. [Fujimori T *et al.*, *PNAS*, 2019.](https://www.pnas.org/content/116/10/4291)
